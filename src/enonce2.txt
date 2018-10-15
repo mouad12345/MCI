@@ -1,0 +1,6 @@
+(Jean,agent,Conduire)
+(Conduire,objet,Megane)
+(Jean,agent,Ecouter)
+(Ecouter,objet,Radio)
+(Marie,possed,Megane)
+(Jean,Mari_De,Marie)

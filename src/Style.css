@@ -1,0 +1,49 @@
+.button {
+
+    -fx-background-insets: 0,1,2,0;
+    -fx-text-fill: #FFF;
+    -fx-font-family: "Segoe UI Semibold ";
+    -fx-font-size: 16px;
+    -fx-font-weight: bold;
+    -fx-padding: 10 20 10 20;
+}
+#btnSave{
+    -fx-background-color: #4CD4B0;
+}
+#btnJoin ,#btnOpen {
+    -fx-background-color: #CDCBA6;
+}
+#btnJoin{
+    -fx-font-size: 24px;
+}
+
+.label{
+    -fx-font-size: 11pt;
+    -fx-font-family: "Segoe UI Semibold";
+
+    -fx-opacity: 1;
+}
+.text-area ,.text-field{
+    -fx-background-insets: 0;
+    -fx-background-color: transparent, #FFF, transparent,  #FFF;
+}
+
+.text-area .content ,.text-field .content{
+    -fx-background-color: transparent,  #FFF, transparent,  #FFF;
+    -fx-font-size:11pt;
+    -fx-font-family:"Segoe UI Semibold";
+}
+
+.text-area:focused .content,.text-field:focused .content {
+    -fx-background-color: transparent,  #FFF, transparent,  #FFF;
+}
+
+.text-area:focused , .text-field:focused{
+    -fx-highlight-fill: #CDCBA6;
+}
+
+.text-area .content , .text-field .content{
+    -fx-padding: 10px;
+
+    -fx-highlight-fill: #CDCBA6;
+}

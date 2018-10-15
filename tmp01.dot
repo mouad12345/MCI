@@ -1,0 +1,15 @@
+digraph G {
+ rankdir=LR;
+ label="Réseau_sémantique";
+ cmpFFPYMyeBOxhbOva[label="Jean",shape="box"];
+ CfRPXBPJsfBOBjOzBJ[label="Conduire",shape="box"];
+ KzhTTWJrbiqGjiLeai[label="Voiture",shape="box"];
+ laiGlaEZMPXlWuGWSN[label="Piloter",shape="box"];
+ apxQkTBSOLnOtLgqOg[label="Avion",shape="box"];
+
+cmpFFPYMyeBOxhbOva->CfRPXBPJsfBOBjOzBJ[label="agent"];
+CfRPXBPJsfBOBjOzBJ->KzhTTWJrbiqGjiLeai[label="objet"];
+cmpFFPYMyeBOxhbOva->laiGlaEZMPXlWuGWSN[label="agent"];
+laiGlaEZMPXlWuGWSN->apxQkTBSOLnOtLgqOg[label="objet"];
+
+}

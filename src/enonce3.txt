@@ -1,0 +1,4 @@
+(Jean,agent,Conduire)
+(Conduire,objet,Voiture)
+(Jean,agent,Piloter)
+(Piloter,objet,Avion)
